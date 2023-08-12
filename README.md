@@ -1,4 +1,6 @@
 # CarCadastro
-Aplicando o conceito CRUD através de uma aplicação web utilizando o Maven.
-Neste projeto utilizo:
-HMTL, CSS, JSP, JSLT E SERVLETS PARA OS AS REQUISIÇÕES HTTP
+Aplicação desenvolvida com Servlets e MVC.
+Neste projeto trabalho com requisições HTTP, onde apliquei uma operação de CRUD através de um banco de dados local. 
+
+Também utilizo neste projeto: 
+Java, JSP, HTML, CSS, JSLT e TomCat.
