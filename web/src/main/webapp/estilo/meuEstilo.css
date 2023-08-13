@@ -2,19 +2,28 @@ body{
     font-family: helvetica, sans-serif;
     width: 80%;
     margin: auto;
-   	background: rgb(24, 24, 24);
+   	background:rgb(4, 4, 3)
 }
 
 .table .td-custom {
   margin-left: 20px; /* Você pode ajustar o valor da margem conforme necessário */
 }
 
+header{
+	margin-top: -5px;
+}
+
+.banner img{
+  width: 100%;
+  
+}
 /* novo */
 .principal{
     text-align: center;
     color: white;
     padding:2px 0px 2px 0px;
-    background-color: orangered;
+    background-color: rgb(255, 111, 0);
+    border-radius: 10px 10px 0 0;
 }
 a{
     text-decoration: none;
@@ -26,21 +35,22 @@ ul{
 
 .liHome{
     text-decoration: none;
-    background-color: rgb(171, 171, 171);
+    background-color:rgb(255, 111, 0);
     display: inline-block;
     padding: 20px;
     margin-right: 50px;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 .sectionHome{
 background-color: aliceblue;
 padding: 30px;
+border-radius: 0px 0px 10px 10px;
 }
 
 .home{
   text-align: center;
-  background-color: orangered;
+  background-color: rgb(255, 111, 0);
   width:fit-content;
   margin: auto;
   padding: 15px;
@@ -50,7 +60,7 @@ padding: 30px;
 
 .homeCadastro{
   text-align: center;
-  background-color: orangered;
+  background-color:  rgb(255, 111, 0);
   width:fit-content;
   margin: auto;
   padding: 15px;
@@ -58,7 +68,7 @@ padding: 30px;
 }
 
 .homeCadastro:hover{
-background-color: rgb(249, 83, 23);
+  background-color:  rgb(255, 111, 0);
 }
 
 .home a{
@@ -66,10 +76,7 @@ background-color: rgb(249, 83, 23);
   color: rgb(255, 255, 255);
 }
 .home:hover{
- background-color: rgb(249, 83, 23);
-}
-header{
-	margin-top: 110px;
+  background-color:  rgb(255, 111, 0);
 }
 
 
@@ -81,7 +88,7 @@ header{
       margin: 0 auto;
       color: white;
       padding: 20px;
-      background-color: orangered;
+      background-color:  rgb(255, 111, 0);
       padding: 30px 40px 30px 30px;
       border-radius: 30px 30px 0px 0px;
   
@@ -91,7 +98,7 @@ main h1{
 	margin-top: 100px;
 	text-align: center;
     color: white;
-    background-color: orangered;
+    background-color:  rgb(255, 111, 0);
     border-radius: 30px 30px 0px 0px;
 	padding: 20px 0px 20px 0px;
 }
