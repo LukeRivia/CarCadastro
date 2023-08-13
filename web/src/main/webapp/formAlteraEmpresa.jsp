@@ -19,7 +19,7 @@
 	<div class="homeCadastro">
       <a href="/web/index.jsp">home</a>
     </div>
-		<h1>ALTERAR DADOS</h1>
+		<h1 class="pages">ALTERAR DADOS</h1>
 	</header>
 	<main>
 		<div class="container">

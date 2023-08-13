@@ -15,7 +15,7 @@
 	<div class="homeCadastro">
       <a href="/web/index.jsp">home</a>
     </div>
-		<h1>CADASTRAR VEÍCULOS</h1>
+		<h1 class="pages">CADASTRAR VEÍCULOS</h1>
 	</header>
 	<main>
 		<div class="container">
