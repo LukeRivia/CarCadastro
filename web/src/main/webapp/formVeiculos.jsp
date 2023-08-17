@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -37,7 +38,12 @@
 		      </div>
 		      <div class="voltar">
       				<a href="/web/listaVeiculos">Lista de Veiculos</a>
-      		  </div>	
+      		  </div>
+      		  <c:when test="${verificaID == true}">
+			 <div class="alert alert-danger" role="alert">
+			  Já existe uma ID cadastrada no sistema.
+			</div>
+			</c:when>	
 		    </form>
 		</div>
 	</main>

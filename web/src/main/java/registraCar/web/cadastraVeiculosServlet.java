@@ -24,8 +24,18 @@ public class cadastraVeiculosServlet extends HttpServlet {
 	        String marcaV = request.getParameter("marca");
 	        
 	        
+	        
 	        // Criação de novo objeto e set de atribuições da classe
+	        dadosVeiculos verifica = new dadosVeiculos();
 	        Veiculo veiculo = new Veiculo();
+			
+			if(verifica.VerificaId(id) == true){
+				boolean verificaID = true;
+				RequestDispatcher rd = request.getRequestDispatcher("/formVeiculos.jsp");
+				rd.forward(request, response);
+			}
+			else{
+
 	        veiculo.setNome(nameV);
 	        veiculo.setMarca(marcaV);
 	        veiculo.setId(id);
@@ -43,4 +53,6 @@ public class cadastraVeiculosServlet extends HttpServlet {
 	        rd.forward(request, response);
 	    }
 
-	}
+
+	 }
+}

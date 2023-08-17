@@ -11,7 +11,7 @@
 
 <body>
     <header class="banner">
-        <divc>
+        <div>
             <img src="estilo/01.png" alt="carro de luxo">
         </div>
     </header>

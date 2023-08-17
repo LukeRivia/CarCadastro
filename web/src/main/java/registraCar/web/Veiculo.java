@@ -3,7 +3,7 @@ package registraCar.web;
 import java.util.Date;
 
 public class Veiculo {
-	private int id;
+	private Integer id;
 	private String nome;
 	private String Marca;
 	private Date dataAbertura = new Date();
@@ -22,7 +22,7 @@ public class Veiculo {
 		Marca = marca;
 	}
 	
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 	

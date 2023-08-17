@@ -28,7 +28,19 @@ public class dadosVeiculos {
 	        }
 	    }
 	}
+
+	public boolean VerificaId(Integer id){
+		for(Veiculo carro: veiculos) {
+			if(carro.getId()== id){
+				return true;
+			}
+				}
+		return false;
+		}
+			
 	
+			
+
 	public Veiculo buscaVeiculoId(Integer id) {
 		for(Veiculo carro: veiculos) {
 			if(carro.getId() == id) {
