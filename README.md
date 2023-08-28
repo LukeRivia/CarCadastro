@@ -38,5 +38,4 @@ Requisitos obrigatórios
 <li>TomCat V9</li>
 </ul>
 
-Ao adicionar o arquivo Web ao servidor local Tomcat a url acessada deve ser:
-<b>localhost:8080/web/index.jsp
+o conseguir inicializar o serviço do Tomcat, acesse o endereço <b>localhost:8080/web/index.jsp</b> através de qualquer navegador.
