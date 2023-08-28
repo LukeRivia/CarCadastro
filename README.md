@@ -1,5 +1,5 @@
 
-
+![Logo do R](https://i.ibb.co/kgJ8rqb/Captura-de-tela-2023-08-27-231404.png)
 
 ## 🚗 CAR CADASTRO   <br>todas as ferramentas e tecnologias que usei neste projeto:
 
@@ -36,6 +36,8 @@ Requisitos obrigatórios
 <li>JDK 19</li>
 <li>Maven 3.8.1</li>
 <li>TomCat V9</li>
+<li>Eclipse (opcional)</li>
 </ul>
 
 o conseguir inicializar o serviço do Tomcat, acesse o endereço <b>localhost:8080/web/index.jsp</b> através de qualquer navegador.
+
