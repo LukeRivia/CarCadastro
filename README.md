@@ -39,5 +39,5 @@ Requisitos obrigatórios
 <li>Eclipse (opcional)</li>
 </ul>
 
-o conseguir inicializar o serviço do Tomcat, acesse o endereço <b>localhost:8080/web/index.jsp</b> através de qualquer navegador.
+Ao conseguir inicializar o serviço do Tomcat, acesse o endereço <b>localhost:8080/web/index.jsp</b> através de qualquer navegador.
 
